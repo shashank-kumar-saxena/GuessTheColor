@@ -1,0 +1,53 @@
+body
+{
+    overflow: hidden;
+    background: gray;
+}
+.heading
+{
+    font-size: 2em;
+    font-family: monospace;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.box-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select-menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu
+{
+    text-align: center;
+}
+.select-menu h5
+{
+    font-size: 1em;
+}
+.button
+{
+    background:white;
+    padding: 5px;
+    border-radius: 25px;
+    
+}
+#msg
+{
+    margin-top: 10px;
+}
